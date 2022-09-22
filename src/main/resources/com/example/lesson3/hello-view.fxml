@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="407.0" prefWidth="228.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="228.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/img/Group%201.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="332.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField layoutX="63.0" layoutY="109.0" prefHeight="26.0" prefWidth="245.0" promptText="Surname" />
+            <ImageView fitHeight="54.0" fitWidth="51.0" layoutX="158.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/img/kisspng-computer-icons-password-portable-network-graphics-user-dashboard-5c57ecf8a47e61.7758533815492661686738.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="37.0" layoutY="331.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="130.0" style="-fx-background-color: #5c92b7;" text="Cancel" textFill="WHITE" />
+            <Button layoutX="186.0" layoutY="331.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="136.0" style="-fx-background-color: #coco;" text="Registration" textFill="#5c92b7" />
+            <TextField layoutX="63.0" layoutY="241.0" prefHeight="26.0" prefWidth="245.0" promptText="Email" />
+            <TextField layoutX="63.0" layoutY="274.0" prefHeight="26.0" prefWidth="245.0" promptText="Phone number" />
+            <TextField layoutX="63.0" layoutY="207.0" prefHeight="26.0" prefWidth="245.0" promptText="Classroom" />
+            <TextField layoutX="63.0" layoutY="142.0" prefHeight="26.0" prefWidth="245.0" promptText="Name" />
+            <TextField layoutX="63.0" layoutY="173.0" prefHeight="26.0" prefWidth="245.0" promptText="Group" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
