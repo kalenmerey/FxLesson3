@@ -39,8 +39,6 @@ public class RegistrationController {
 
     @FXML
     protected void registrationOnClicked(ActionEvent event) {
-        registerButton.setText("Clicked");
-
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(getClass().getResource("welcome.fxml"));

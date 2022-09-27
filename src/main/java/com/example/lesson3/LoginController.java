@@ -22,23 +22,22 @@ public class LoginController {
     @FXML
     Label incorrectLabel;
 
+
+
     public void loginButtonClicked(ActionEvent event) {
-        loginButton.setText("Clicked");
-
-    }
-
-    public void registrationButtonClicked(ActionEvent event) {
+        if(emailTextField.getText().equals("merey@gmail.com")&&(passwordTextField.getText().equals("123456"))){
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getResource("registration.fxml"));
+            fxmlLoader.setLocation(getClass().getResource("welcome.fxml"));
             Scene scene = new Scene(fxmlLoader.load(), 600, 400);
             Stage stage = new Stage();
-            stage.setTitle("Registration form");
+            stage.setTitle("WELCOME PAGE");
             stage.setScene(scene);
             stage.show();
             ((Node) (event.getSource())).getScene().getWindow().hide();
         } catch (IOException e) {
             System.out.println(e.toString());
+        }
         }
 
     }}
